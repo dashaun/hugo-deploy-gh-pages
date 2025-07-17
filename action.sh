@@ -83,6 +83,7 @@ fi
 ###
 git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf 'https://github.com/'
 
+git config --global --add safe.directory /github/workspace
 
 ###
 # Build the site.
